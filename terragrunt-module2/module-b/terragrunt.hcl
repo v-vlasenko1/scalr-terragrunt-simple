@@ -17,7 +17,8 @@ terraform {
 }
 */
 
-inputs = {
+/*inputs = {
   module_name = dependency.module-a.outputs.module_name
   resource_id = dependency.module-a.outputs.resource_id
 }
+*/
