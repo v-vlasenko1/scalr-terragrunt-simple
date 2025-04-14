@@ -15,7 +15,7 @@ terraform {
     key            = "state/${local.environment}/${path_relative_to_include()}/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
-    dynamodb_table = "ape-terragrunt-run-all-bucket-locks"
+    # dynamodb_table = "ape-terragrunt-run-all-bucket-locks"
   }
 }
 EOF
